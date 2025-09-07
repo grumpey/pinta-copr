@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:		pinta
 Version:	3.0.3
 Release:  %autorelease	
