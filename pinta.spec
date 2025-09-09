@@ -17,10 +17,11 @@ BuildRequires:	make
 BuildRequires:  dotnet-sdk-9.0
 BuildRequires:  intltool
 BuildRequires:  libadwaita-devel
-BuildRequires:  gtk4-devel 
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
 Requires: hicolor-icon-theme
+Requires: dotnet-runtime-9.0
+Requires: webp-pixbuf-loader
 
 %description
 Pinta is an image drawing/editing program.
