@@ -19,6 +19,7 @@ BuildRequires:  intltool
 BuildRequires:  libadwaita-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
+
 Requires: hicolor-icon-theme
 Requires: dotnet-runtime-9.0
 Requires: webp-pixbuf-loader
