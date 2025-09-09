@@ -16,13 +16,14 @@ BuildRequires:	gcc
 BuildRequires:	make
 BuildRequires:  dotnet-sdk-9.0
 BuildRequires:  intltool
-BuildRequires:  libadwaita-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
 
 Requires: hicolor-icon-theme
 Requires: dotnet-runtime-9.0
-Requires: webp-pixbuf-loader
+Requires:  libadwaita
+
+Recommends: webp-pixbuf-loader
 
 %description
 Pinta is an image drawing/editing program.
@@ -191,4 +192,4 @@ appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/%{name}.appdat
 
 %changelog
 * Mon Sep 08 2025 Joe Walker <joe.c.walker0@gmail.com> - 3.0.3-2 
-- Initial build of pinta 3.0.3 
+- RPM build of pinta 3.0.3 after fixing a few things  
