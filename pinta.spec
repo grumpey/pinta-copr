@@ -2,7 +2,7 @@
 
 Name:		pinta
 Version:	3.0.3
-Release:  %autorelease	
+Release:  2%{?dist} 
 Summary:	An easy to use drawing and image editing program
 
 # the code is licensed under the MIT license while the icons are licensed as CC-BY
@@ -190,4 +190,5 @@ appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/%{name}.appdat
 %{_datadir}/icons/hicolor/scalable/actions/ui-historylist-symbolic.svg
 
 %changelog
-%autochangelog
+* Mon Sep 08 2025 Joe Walker <joe.c.walker0@gmail.com> - 3.0.3-2 
+- Initial build of pinta 3.0.3 
