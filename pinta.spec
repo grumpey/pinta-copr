@@ -21,7 +21,7 @@ BuildRequires:  libappstream-glib
 
 Requires: hicolor-icon-theme
 Requires: dotnet-runtime-9.0
-Requires:  libadwaita
+Requires: libadwaita
 
 Recommends: webp-pixbuf-loader
 
