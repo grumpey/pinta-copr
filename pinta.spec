@@ -15,15 +15,15 @@ Source0:	https://github.com/PintaProject/Pinta/releases/download/%{version}/%{na
 BuildRequires:	gcc
 BuildRequires:	make
 BuildRequires:  dotnet-sdk-9.0
-BuildRequires:  libadwaita-devel
-BuildRequires:  gtk4-devel 
+BuildRequires:  libadwaita-devel >= 1.7
+BuildRequires:  gtk4-devel >= 4.18 
 BuildRequires:  intltool
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
 
 Requires: hicolor-icon-theme
 Requires: dotnet-runtime-9.0
-Requires: libadwaita
+Requires: libadwaita >= 1.7
 
 Recommends: webp-pixbuf-loader
 
