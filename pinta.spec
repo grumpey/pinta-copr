@@ -15,6 +15,8 @@ Source0:	https://github.com/PintaProject/Pinta/releases/download/%{version}/%{na
 BuildRequires:	gcc
 BuildRequires:	make
 BuildRequires:  dotnet-sdk-9.0
+BuildRequires:  libadwaita-devel
+BuildRequires:  gtk4-devel 
 BuildRequires:  intltool
 BuildRequires:  desktop-file-utils
 BuildRequires:  libappstream-glib
